@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+  margin: 0;
+  font-family: Rubik;
+  -moz-osx-font-smoothing: grayscale;
+  color: #222;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  margin: 1em;
+  font-size: .7em;
+  font-weight: 500;
+}
+
+.product {
+  border: 1px solid #ccc;
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 100px;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1em;
+  margin: 2px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px #eee;
+}
+
+.price {
+  border-radius: 3px;
+  margin: 0 2em;
+  font-size: .6em;
+  color: hsla(80deg, 30%, 30%);
+}
+
+.select {
+  font-size: 1.1em;
+  margin: 1em 2em;
+  padding: .2em 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+}

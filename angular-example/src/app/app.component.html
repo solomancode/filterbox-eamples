@@ -1,0 +1,12 @@
+<ng-container *ngFor="let c of productsService.controls">
+    <ng-container [ngSwitch]="c.type()">
+        <app-select (select)="c.filter().setValue($event)" [data]="c.data()" *ngSwitchCase="'select'"></app-select>
+    </ng-container>
+</ng-container>
+<pre>
+    queryString: {{ productsService.queryString }}
+</pre>
+<pre>
+    payload: {{ productsService.payload }}
+</pre>
+<app-products [products]="productsService.products"></app-products>

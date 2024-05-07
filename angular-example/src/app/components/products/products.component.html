@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let product of products" class="product">
+    <h2>{{ product.emoji }}</h2>
+    <small>{{ product.category }}</small>
+    <hr />
+    <span className="price">💵 {{ product.price }}</span>
+  </li>
+</ul>
