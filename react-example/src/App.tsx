@@ -1,7 +1,6 @@
 import "./App.css";
 import { Products } from "./Products";
 import { Select } from "./Select";
-import { products } from "./data";
 import { SelectData, useFilters } from "./useFilters";
 
 function App() {
